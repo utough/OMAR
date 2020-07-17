@@ -1,0 +1,247 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #EBECEE;
+}
+
+
+.page-top-title {
+    background-color: #000;
+    width: 100vw;
+}
+
+.page-top-title p {
+    color: #fff;
+    padding: 0.5%;
+    font-size: 0.8em;
+    text-align: center;
+}
+
+header {
+    width: 100vw;
+}
+
+header ul {
+    width: 85%;
+    display: flex;
+    margin: 2% auto 0 auto;
+}
+
+header ul li {
+    width: 15%;
+    list-style-type: none;
+}
+
+header ul li img {
+    width: 50%;
+}
+
+header ul li a {
+    display: block;
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+    font-size: 0.8em;
+    font-family: serif;
+}
+
+header ul li a:hover {
+    opacity: 0.5;
+}
+
+.top-video {
+    width: 100vw;
+}
+
+.top-video video {
+    display: block;
+    width: 70%;
+    margin: 2% auto;
+}
+
+.main-page-navi {
+    width: 100vw;
+    box-sizing: border-box;
+    padding: 10%;
+    background-image: url(../imgs/flower-vase.jpg);
+    background-size: cover;
+    background-position: right;
+}
+
+.top-section {
+    display: flex;
+}
+
+.mp-top-text {
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.mp-top-text img {
+    width: 50%;
+    margin-top: 35%;
+    margin-left: 20%;
+    display: block;
+}
+
+.female {
+    width: 50%;
+    height: 450px;
+    background-image: url(../imgs/female-top.jpg);
+    background-size: cover;
+}
+
+.female a {
+    width: 100%;
+    height: 100%;
+    display: block;
+    line-height: 30;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+}
+
+.female a:hover {
+    background-color: rgba(0,0,0,0.4);
+    transition: 1s;
+}
+
+
+.bottom-section {
+    display: flex;
+}
+
+.male {
+    width: 50%;
+    height: 450px;
+    background-image: url(../imgs/male-top.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.male a {
+    width: 100%;
+    height: 100%;
+    display: block;
+    line-height: 30;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+}
+
+.male a:hover {
+    background-color: rgba(0,0,0,0.4);
+    transition: 1s;
+}
+
+.child {
+    width: 50%;
+    height: 450px;
+    background-image: url(../imgs/kids-top.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.child a {
+    width: 100%;
+    height: 100%;
+    display: block;
+    line-height: 30;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+}
+
+.child a:hover {
+    background-color: rgba(0,0,0,0.4);
+    transition: 1s;
+}
+
+footer {
+    background-color: #343131;
+    width: 100vw;
+}
+
+.Ftitle {
+    width: 100vw;
+    display: flex;
+}
+
+.Ftitle h3 {
+    width: 20%;
+    box-sizing: border-box;
+    padding: 3% 1% 1% 5%;
+}
+
+.Ftitle h3 img {
+    width: 100%;
+}
+
+.Ftitle p {
+    color: #fff;
+    margin-top: 4%;
+    margin-left: 3%;
+}
+
+.Ftext {
+    display: flex;
+    border-top: 1px solid #ccc;
+    margin: 2% 5% 0 5%;
+    padding-top: 3%;
+    padding-bottom: 4%;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.Ftext a {
+    color: #fff;
+}
+
+.Ftext a:hover {
+    opacity: 0.8;
+}
+
+.textA {
+    margin-right: 4%;
+}
+
+.textB {
+    margin-right: 4%;
+}
+
+.textC {
+    margin-right: 4%;
+}
+
+.iconbox {
+    margin-left: auto;
+    box-sizing: border-box;
+}
+
+.iconbox .fa-facebook-square,.fa-instagram {
+    letter-spacing: 0.2em;
+    line-height: 2.5;
+}
+
+.fa-facebook-square,.fa-instagram,.fa-twitter-square {
+    color: #cbc0c0;
+}
+
+
+
+
+
+
+
+

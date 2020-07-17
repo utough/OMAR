@@ -1,0 +1,23 @@
+@media screen and (max-width: 599px) {
+
+    header nav ul li a {
+        display: none;
+    }
+    
+    .main-page-navi {
+        padding: 0;
+    }
+
+    .female {
+        background-color: ;
+    }
+
+    .male {
+        height: 225px;
+    }
+    
+    .male a {
+        line-height: 0;
+    }
+
+}
